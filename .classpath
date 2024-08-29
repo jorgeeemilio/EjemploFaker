@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="driver"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="driver/automaton-1.11-8.jar"/>
+	<classpathentry kind="lib" path="driver/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="driver/generex-1.0.2.jar"/>
+	<classpathentry kind="lib" path="driver/javafaker-1.0.2.jar"/>
+	<classpathentry kind="lib" path="driver/snakeyaml-1.23-android.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
