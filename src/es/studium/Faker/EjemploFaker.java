@@ -33,5 +33,8 @@ public class EjemploFaker
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         String formattedBirthDate = dateFormat.format(birthDate);
         System.out.println("Fecha de Nacimiento: " + formattedBirthDate);
+        dateFormat.applyPattern("yyyy-MM-dd");
+        formattedBirthDate = dateFormat.format(birthDate);
+        System.out.println("Fecha de Nacimiento (MySQL): " + formattedBirthDate);
     }
 }
